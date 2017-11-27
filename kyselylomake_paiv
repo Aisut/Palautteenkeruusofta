@@ -4,8 +4,15 @@
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87058258-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-87058258-2');
+</script>
 </head>
 
 <body>
@@ -112,17 +119,23 @@
 		text += sukupuoli[i] + "<br>";
 }
 	function laheta() {
-		var etunimi = document.getElementById("etunimi").value;
+		var ika = document.querySelector('input[name= "ika"]:checked').value;
 		var sukupuoli = document.querySelector('input[name = "sukupuoli"]:checked').value;
+        var kampus = document.querySelector('input[name= "kampus"]:checked').value;
+        var jasenyys = document.querySelector('input[name= "jasenyys"]:checked').value;
+        var hyoty = document.querySelector('input[name= "hyoty"]:checked').value;
+        var ev_kaytto = document.querySelector('input[name= "ev_kaytto"]:checked').value;
 		var taulukko=[];
-		$("input:checkbox[name=harrastan]:checked").each(function(){
+		$("input:checkbox[name=ev_ongelma]:checked").each(function(){
 	       taulukko.push($(this).val());
+        var kerhotoiminta = document.querySelector('input[name= "kerhotoiminta"]:checked').value;
+        var tapahtumat = document.querySelector('input[name= "tapahtumat"]:checked').value;
+        var tutorointi = document.querySelector('input[name= "tutorointi"]:checked').value;
+		var vapaa = document.getElementById('input[name= "vapaa"]:checked').value;
 		
 });
 } 
 document.getElementById("lomake").innerHTML = text;
-</script>
-
 </script>
 
 </body>
