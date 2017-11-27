@@ -24,8 +24,8 @@
     Ikä: <br>
 	<input type="radio" name="ika" value="alle20" checked> Alle 20 <br>
 	<input type="radio" name="ika" value="20-25"> 20 - 25 <br>
-  <input type="radio" name="ika" value="20-25"> 26 - 30 <br>
-  <input type="radio" name="ika" value="20-25"> 31 - 35 <br>
+  	<input type="radio" name="ika" value="20-25"> 26 - 30 <br>
+ 	<input type="radio" name="ika" value="20-25"> 31 - 35 <br>
 	<input type="radio" name="ika" value="yli30"> Yli 30 <hr />
     
 	Sukupuoli: <br>
@@ -36,8 +36,8 @@
     Kampus: <br>
 	<input type="radio" name="kampus" value="pasila" checked> Pasila <br>
 	<input type="radio" name="kampus" value="malmi"> Malmi <br>
-  <input type="radio" name="kampus" value="haaga"> Haaga <br>
-  <input type="radio" name="kampus" value="porvoo"> Porvoo <br>
+  	<input type="radio" name="kampus" value="haaga"> Haaga <br>
+  	<input type="radio" name="kampus" value="porvoo"> Porvoo <br>
 	<input type="radio" name="kampus" value="vierumaki"> Vierumäki <hr />
     
     <h2>Helgan jäsenyys</h2>
@@ -61,9 +61,9 @@
 	<input type="checkbox" name="ev_ongelma" value="laatu"> Opetuksen laatu <br>
 	<input type="checkbox" name="ev_ongelma" value="arviointi"> Kurssi arviointi <br>
 	<input type="checkbox" name="ev_ongelma" value="ristiriita"> Ristiriitatilanne henkilöstön kanssa <br>
-  <input type="checkbox" name="ev_ongelma" value="tyoharjoittelu"> Työharjoittelu <br>
-  <input type="checkbox" name="ev_ongelma" value="kuormittavuus"> Opintojen kuormittavuus <br>
-  <input type="checkbox" name="ev_ongelma" value="lasnaolo"> Läsnäolo / Poissaolo <br>
+  	<input type="checkbox" name="ev_ongelma" value="tyoharjoittelu"> Työharjoittelu <br>
+  	<input type="checkbox" name="ev_ongelma" value="kuormittavuus"> Opintojen kuormittavuus <br>
+  	<input type="checkbox" name="ev_ongelma" value="lasnaolo"> Läsnäolo / Poissaolo <br>
 	<input type="checkbox" name="ev_ongelma" value="opetusteknologia"> Opetusteknologia <hr />
     
     Oletko tietoinen Helgan kerhotoiminta palveluista: <br>
@@ -73,15 +73,15 @@
     Kuinka usein käyt opiskelijatapahtumissa: <br>
 	<input type="radio" name="tapahtumat" value="koskaan" checked> En koskaan <br>
 	<input type="radio" name="tapahtumat" value="harvemmin"> Harvemmin kuin kuukausittain <br>
-  <input type="radio" name="tapahtumat" value="kuukausittain"> Kuukausittain <br>
-  <input type="radio" name="tapahtumat" value="viikottain"> Viikottain <br>
+  	<input type="radio" name="tapahtumat" value="kuukausittain"> Kuukausittain <br>
+  	<input type="radio" name="tapahtumat" value="viikottain"> Viikottain <br>
 	<input type="radio" name="tapahtumat" value="useammin"> Useammin kuin viikottain <hr />
     
     Oletko hyötynyt Helgan tutorointipalveluista: <br>
 	<input type="radio" name="tutorointi" value="ollenkaan" checked> En ollenkaan <br>
 	<input type="radio" name="tutorointi" value="vahan"> Vähän <br>
-  <input type="radio" name="tutorointi" value="kohtalaisesti"> Kohtalaisesti <br>
-  <input type="radio" name="tutorointi" value="paljon"> Paljon <br>
+  	<input type="radio" name="tutorointi" value="kohtalaisesti"> Kohtalaisesti <br>
+  	<input type="radio" name="tutorointi" value="paljon"> Paljon <br>
 	<input type="radio" name="tutorointi" value="erittain_paljon"> Erittäin paljon <hr />
 	
     Vapaa palaute: 
